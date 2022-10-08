@@ -37,10 +37,13 @@ Number of Epochs: 100
 
 Image size = 224 x 224
 
+#### VGG 16
 ![Architectures](https://github.com/milesway/Image-Classification-of-COVID-19-X-rays/blob/main/Picture3.jpg?raw=true)
 
-![Architectures](https://github.com/milesway/Image-Classification-of-COVID-19-X-rays/blob/main/Picture4.jpg?raw=true)
-
 ![Accuracy and Loss](https://github.com/milesway/Image-Classification-of-COVID-19-X-rays/blob/main/Picture5.jpg?raw=true)
+
+#### AlexNet
+
+![Architectures](https://github.com/milesway/Image-Classification-of-COVID-19-X-rays/blob/main/Picture4.jpg?raw=true)
 
 ![Accuracy and Loss](https://github.com/milesway/Image-Classification-of-COVID-19-X-rays/blob/main/Picture6.jpg?raw=true)
