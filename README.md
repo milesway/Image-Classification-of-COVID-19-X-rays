@@ -9,6 +9,8 @@ The datasets contain two separate parts, one for task 1 and the other for task 2
 Task 1:
 We start from taking a pre-trained model, VGG16 network, with weights obtained by training on Imagenet, and with the image size 224 x 224. We add a fully-connected layer with 256 neurons to allow processing on the entire image, and we use sigmoid function for binary classification with its confident value.
 
+
+
 Optimizer: Adam
 
 Loss function: binary cross-entropy Learning rate: 0.0005
@@ -19,7 +21,8 @@ Number of Epochs: 40
 
 Image size = 224 x 224
 
-
+!(https://github.com/milesway/Image-Classification-of-COVID-19-X-rays/blob/main/Picture1.jpg?raw=true)
+!(https://github.com/milesway/Image-Classification-of-COVID-19-X-rays/blob/main/Picture2.jpg?raw=true)
 Task 2:
 We start from taking a pre-trained model, VGG16 network, with weights obtained by training on Imagenet, and with the image size 224 x 224. We add a fully-connected layer with 256 neurons to allow processing on the entire image, attached with the softmax activation function, since this will allow us to give a probability output for each of the classes, and eventually get the maximum as our final predicted output.
 
@@ -32,3 +35,8 @@ Batch size: 10
 Number of Epochs: 100
 
 Image size = 224 x 224
+
+!(https://github.com/milesway/Image-Classification-of-COVID-19-X-rays/blob/main/Picture3.jpg?raw=true)
+!(https://github.com/milesway/Image-Classification-of-COVID-19-X-rays/blob/main/Picture4.jpg?raw=true)
+!(https://github.com/milesway/Image-Classification-of-COVID-19-X-rays/blob/main/Picture5.jpg?raw=true)
+!(https://github.com/milesway/Image-Classification-of-COVID-19-X-rays/blob/main/Picture6.jpg?raw=true)
